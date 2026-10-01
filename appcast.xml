@@ -16,5 +16,17 @@
 <p>Upgrading from a 0.1 test build: macOS asks for notification permission again, and &quot;Open at login&quot; must be turned on again in Settings → General.</p>]]></description>
       <enclosure url="https://github.com/alexmontoanelli/zabbix-toolbar-releases/releases/download/v1.0.0/ZabbixToolbar-1.0.0.dmg" sparkle:edSignature="3Gzn6ow1eQ1HJyOl/Ap4e+P7xLBy7rgd3l0TPA9U56f9bEOAsCQtzNN51/FQm1eZtY45ZjCo1HO9wfwQ5MY+Dg==" length="2718491" type="application/octet-stream"/>
     </item>
+    <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Thu, 01 Oct 2026 20:21:37 GMT</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<h3>Zabbix Toolbar 1.0.1</h3>
+<p>Security and privacy improvements.</p>
+<ul><li>The app no longer follows redirects from a Zabbix server, so your token or password can&#x27;t be sent to a different address. If your server redirects, the app shows the new address so you can update the server URL.</li><li>A warning now appears when a server URL uses http://, since the token or password would travel without encryption.</li><li>Your Pro license key is now stored in the macOS Keychain, like your server credentials. Existing licenses move there automatically.</li><li>Stricter license checks.</li><li>Settings → General → Privacy now lists everything the anonymous usage data contains.</li></ul>
+<p>If you used a test build before 1.0.0, consider creating new API tokens in Zabbix: older test builds stored them in a file.</p>]]></description>
+      <enclosure url="https://github.com/alexmontoanelli/zabbix-toolbar-releases/releases/download/v1.0.1/ZabbixToolbar-1.0.1.dmg" sparkle:edSignature="ddYt+2QCRn3xj3cB/k3xFTqXx/NgklzeoDsYCkw9z8Q5hr/MHZY3QIqCb/qHsYVGSmXyVUmwTSFgsxEnH/UODQ==" length="2735434" type="application/octet-stream"/>
+    </item>
   </channel>
 </rss>
